@@ -11,7 +11,7 @@ gem 'daemons', "~> 1.1"
 group :development do
   gem "rspec", "~> 2.14"
   gem "bundler", "~> 1.10"
-  gem "jeweler", "~> 2.0"
+  gem "jeweler", "~> 2.3", ">= 2.3.6"
 end
 
 group :test, :development do
